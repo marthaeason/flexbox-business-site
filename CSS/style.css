@@ -1,0 +1,169 @@
+/*universal styles*/
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: sora, Arial, Helvetica, sans-serif;
+    color: 231C1A;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+    color: #231C1A;
+}
+
+/*nav*/
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+li a {
+    color: #F9E6E0;;
+}
+
+li a:hover {
+    color: #D0BDB6;
+    cursor: pointer;
+    font-size: large;
+}
+
+.nav_container {
+    min-width: 100%;
+    min-height: fit-content;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #231C1A;
+}
+
+.logo {
+    max-height: 200px;
+    max-width: 200px;
+    object-fit: contain; 
+}
+
+.banner {
+    min-height: fit-content;
+    min-width: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*mission statement*/
+
+.mission_container {
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    min-height: 250px;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*artists*/
+
+.our_artists {
+    min-height: fit-content;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artists_container {
+max-height: fit-content;
+min-width: 100%;
+display: flex;
+gap: 20px;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    object-fit: fill;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+a h3:hover {
+    cursor: pointer;
+    color: black;
+    opacity: 1;
+    font-size: larger;
+}
+
+/*quote*/
+.quote_container {
+    min-width: 100%;
+    min-height: 250px;
+    background-color: #A1837A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+blockquote {
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+/*team*/
+
+.team_container {
+    min-width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member_container {
+    min-width: 100%;
+    flex-basis: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*footer*/
+
+footer {
+    min-width: 100%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5rem;
+    background-color: #A1837A;
+}

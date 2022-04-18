@@ -1,0 +1,13 @@
+Colors:
+- Raisin Black: 231C1A
+- misty rose: F9E6E0
+
+neutral colors: 
+- Cinereous: A1837A
+- pale silver: D0BDB6
+
+Fonts: 
+- Sora: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@100&family=Sora:wght@100;300;600&display=swap" rel="stylesheet">
+
